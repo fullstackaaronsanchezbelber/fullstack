@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.topSearch {
+    padding: 0.5rem;
+}
+
+.npmLogo {
+    width: 150px;
+}
+
+.searchForm {
+    display: flex;
+
+}
+
+.searchForm > input{
+    padding: 10px 5px;
+    padding: 1rem;
+
+}
+
+input[type=submit] {
+    background-color: rgb(204, 57, 57);
+    color: white;
+}
+
+#package-name {
+    background-color: rgb(212, 212, 212);
+    width: 500px;
+}
+
+.loginLinks {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.loginLinks>a {
+    color: rgba(0, 0, 0, .7);
+    padding: 0.4rem 1rem;
+   
+
+}
+
+.loginLinks__join {
+    border: 1px solid rgba(0, 0, 0, .7);
+    
+}
+
+.section-amazing {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.section-amazing__title {
+    font-size: 5rem;
+    font-weight:  700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-amazing__description {
+    width: 40%;
+    margin: 0 auto;
+}
